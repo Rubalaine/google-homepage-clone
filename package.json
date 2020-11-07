@@ -1,0 +1,14 @@
+{
+  "name": "google-clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rubalaine <kelvenizzy@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch:sass": "node-sass src/scss/main.scss public/styles/style.css -w",
+    "build:sass": "node-sass src/scss/main.scss public/styles/style.css --output-style compressed"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
